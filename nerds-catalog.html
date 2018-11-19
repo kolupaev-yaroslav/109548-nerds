@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>HTML Academy: Нёрдс</title>
+    <meta name="keywords" content="заказать дизайн сайта, заказать разработку мобильного приложения, заказать дизайн презентации, дизайн студия краснодар, Nerds">
+<meta name="description" content="Сайт Краснодарской дизайн студии Nerds. Посмотрите наши работы и цены!">
+
+  </head>
+  <body>
+    <header class="header">
+    	<a href="#">
+    		<img class="header-logo" src="img/logo.png" width="150" height="50" alt="Дизайн-студия Nerds">
+    	</a>
+
+    	<nav class="header-navigation">
+    		<ul class="header-navigation-list">
+    			<li>Студия</li>
+    			<li>Клиенты</li>
+    			<li>Магазин</li>
+    			<li>Контакты</li>
+    		</ul>
+    	</nav>
+    	<nav class="header-user-navigation">
+    	<ul>
+    		<li>Корзина</li>
+    	</ul> 
+    	</nav>
+
+    	<h1>Магазин готовых шаблонов</h1>
+    </header>
+    
+    <main>
+        <section class="cost">
+            <h2>Стоимость:</h2>
+            <!--
+                Тут будет форма
+            -->
+        </section>
+
+        <section class="grid">
+            <h2>Сетка:</h2>
+            <label><input type="radio" name="grid" id="1" selected> Адаптивная</label><br>
+            <label><input type="radio" name="grid" id="2"> Фиксированная</label><br>
+            <label><input type="radio" name="grid" id="3"> Резиновая</label>
+        </section>
+
+        <section class="features">
+            <h2>Особенности:</h2>
+            <label><input type="checkbox" name="features-slider" value="1"> Слайдер</label>
+            <label><input type="checkbox" name="features-features" value="1"> Блок преимуществ</label>
+            <label><input type="checkbox" name="features-news" value="1"> Слайдер</label>
+            <label><input type="checkbox" name="features-gallery" value="1"> Слайдер</label>
+            <label><input type="checkbox" name="features-cart" value="1"> Слайдер</label>
+            <a href="#" class="features-button" title="Показать">Показать</a>
+        </section>
+
+        <section class="sort">
+            <h2>Сортировать:</h2>
+            <p class="sort-active">По цене</p>
+            <p class="sort-none-active">По типу</p>
+            <p class="sort-none-active">По названию</p>
+
+            <a href="#">
+                <img class="sort-up-active" src="#" width="10" height="10" alt="По убыванию">
+            </a>
+            <a href="#">
+                <img class="sort-down" src="#" width="10" height="10" alt="По возрастанию">
+            </a>
+        </section>
+
+        <ul class="shop-list">
+            <!--
+                В этот блоке ХЗ как лучше сверстать активный элемент.
+                Может с помощью JS может через CSS как-то можно.
+                Пока сделаю как-то.
+            -->
+            <li class="shop-item-active">
+                <a href="#">
+                    <img src="#" width="100" height="350" alt="Проект Sedona">
+                </a>
+                <section class="shop-item-info">
+                    <h3>Sedona</h3>
+                    <p>Информационный сайт для туристов</p>
+                    <a href="#" class="shop-item-price">9 900 руб.</a>
+                </section>
+            </li>
+            <li class="shop-item-none-active">
+                <a href="#">
+                    <img src="#" width="100" height="350" alt="Проект Pink">
+                </a>
+            </li>
+            <li class="shop-item-none-active">
+                <a href="#">
+                    <img src="#" width="100" height="350" alt="Проект Barbershop Borodinski">
+                </a>
+            </li>
+            <li class="shop-item-none-active">
+                <a href="#">
+                    <img src="#" width="100" height="350" alt="Проект Mishka">
+                </a>
+            </li>
+            <li class="shop-item-none-active">
+                <a href="#">
+                    <img src="#" width="100" height="350" alt="Проект Какая-то учёба">
+                </a>
+            </li>
+            <li class="shop-item-none-active">
+                <a href="#">
+                    <img src="#" width="100" height="350" alt="Проект Кваст">
+                </a>
+            </li>
+        </ul>
+
+        <section class="pagination">
+            <a class="pagination-number-active" href="#" title="Страница 1">1</a>
+            <a class="pagination-number-non-active" href="#" title="Страница 2">2</a>
+            <a class="pagination-number-non-active" href="#" title="Страница 3">3</a>
+            <a class="pagination-next-non-active" href="#" title="Следующая страница">Следующая</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="social">
+            <li>
+                <a href="#">
+                    <img src="#" width="50" height="50" alt="Вконтакте Nerds дизайн студия">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="#" width="50" height="50" alt="Facebook Nerds дизайн студия">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="#" width="50" height="50" alt="Instagram Nerds дизайн студия">
+                </a>
+            </li>
+        </ul>
+        <p class="footer-caption">Давайте дружить, это выгодно!</p>
+        <p class="footer-social-offer">Скидка 10% для друзей из социальных сетей</p>
+    </footer>
+
+  </body>
+</html>
